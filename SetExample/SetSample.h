@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface SetSample : NSObject
+  
+ -(void)setSamp:(NSInteger)sum firstName:(NSString *)nameStr secondBool:(BOOL)firstFlag;
+-(void)setSamp2:(CGFloat)sum firstNumber:(NSInteger)firstNo secondNumber:(NSString *)charName;
 
 @end
